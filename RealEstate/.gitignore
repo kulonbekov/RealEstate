@@ -1,0 +1,90 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Папки, создаваемые IDE
+.idea/
+.idea_modules/
+
+# Папки, создаваемые сборщиком проекта
+target/
+build/
+out/
+
+# Папки с настройками
+.gradle/
+.mvn/
+
+# Папки с логами
+logs/
+
+# Папки с сгенерированными файлами
+generated/
+
+# Папки с зависимостями и библиотеками
+lib/
+libs/
+
+# Папка с временными файлами
+temp/
+
+# Папка с отчетами о покрытии кода
+coverage/
+
+# Папка с документацией
+docs/
+
+# Папки с тестовыми данными
+testdata/
+
+# Папка с кэшем
+.caches/
+
+# Папка с файлами настроек пользователя
+.settings/
+
+# Папка с файлами профилирования
+.profiles/
+
+# Папка с файлами истории командной строки
+.commandhistory/
+
+# Папка с файлами резервных копий
+backup/
+bak/
+
+# Папка с временными файлами редактора
+.tmp/
+
+# Папка с файлами локализации
+i18n/
