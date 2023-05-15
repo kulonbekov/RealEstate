@@ -5,6 +5,6 @@ public enum Status {
     ACTIVE,
     NOT_ACTIVE,
     DELETED,
-    NOT_DELETE
+    NOT_DELETE;
 
 }
