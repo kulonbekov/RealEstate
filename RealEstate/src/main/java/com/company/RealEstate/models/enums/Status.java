@@ -5,6 +5,6 @@ public enum Status {
     ACTIVE,
     NOT_ACTIVE,
     DELETED,
-    IN_PROGRESS
+    IN_PROGRESS;
 
 }
