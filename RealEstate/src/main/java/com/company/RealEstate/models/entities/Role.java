@@ -1,13 +1,22 @@
 package com.company.RealEstate.models.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import com.sun.istack.NotNull;
+import lombok.*;
+import lombok.experimental.FieldDefaults;
 
+import javax.persistence.*;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
-public class Role {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
+@FieldDefaults(level = AccessLevel.PRIVATE)
+public class Role extends BaseEntity{
+
+    @NotNull
+    @Column(name = "name", unique = true)
+    String name;
+
+
 }

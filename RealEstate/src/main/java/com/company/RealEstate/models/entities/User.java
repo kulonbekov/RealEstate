@@ -1,14 +1,18 @@
 package com.company.RealEstate.models.entities;
 
+import lombok.*;
+import lombok.experimental.FieldDefaults;
+
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
-public class User {
+@FieldDefaults(level = AccessLevel.PRIVATE)
+public class User extends BaseEntity{
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
+
+    String username;
 }
