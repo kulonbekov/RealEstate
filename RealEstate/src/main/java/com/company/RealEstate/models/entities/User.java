@@ -4,6 +4,7 @@ import lombok.*;
 import lombok.experimental.FieldDefaults;
 
 import javax.persistence.Entity;
+import javax.persistence.Table;
 
 @Getter
 @Setter
@@ -11,6 +12,7 @@ import javax.persistence.Entity;
 @AllArgsConstructor
 @Entity
 @FieldDefaults(level = AccessLevel.PRIVATE)
+@Table(name = "tb_user")
 public class User extends BaseEntity{
 
 

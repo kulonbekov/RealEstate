@@ -12,6 +12,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @Entity
 @FieldDefaults(level = AccessLevel.PRIVATE)
+@Table(name = "tb_role")
 public class Role extends BaseEntity{
 
     @NotNull
