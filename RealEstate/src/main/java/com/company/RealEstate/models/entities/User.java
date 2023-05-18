@@ -1,11 +1,15 @@
 package com.company.RealEstate.models.entities;
 
+import com.company.RealEstate.models.enums.Gender;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.sun.istack.NotNull;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
 import javax.persistence.*;
 import java.util.List;
+
+
 
 @Getter
 @Setter

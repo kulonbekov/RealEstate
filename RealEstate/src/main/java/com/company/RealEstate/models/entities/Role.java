@@ -1,5 +1,6 @@
 package com.company.RealEstate.models.entities;
 
+import com.company.RealEstate.models.enums.Status;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.sun.istack.NotNull;
 import lombok.*;
